@@ -4,45 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
     <title>Xmas Traditions Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Christmas Traditions Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a topic surrounding the
-        holidays..."
-          autocomplete="off"
-          autofocus
-          required
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Generated traditions go here
-        <br />
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis,
-        est ac vulputate placerat, mi ex condimentum lorem, sit amet fringilla
-        orci mi ac mi.
-      </div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>Christmas Traditions Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a topic about Christmas"
+            class="input-info"
+            autocomplete="off"
+            autofocus
+            required
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="xmas-traditions">
+          Generated traditions go here
+          <br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis,
+          est ac vulputate placerat, mi ex condimentum lorem, sit amet fringilla
+          orci mi ac mi.
+        </div>
+      </main>
 
-    <footer>
-      This projected was coded by
-      <a href="https://github.com/whaleism" target="_blank">Jenny Lee</a>, is
-      open sourced on
-      <a href="https://github.com/whaleism/xmas-trad-generator" target="_blank"
-        >Git Hub</a
-      >, and hosted on
-      <a href="https://xmas-trad-generator.vercel.app/" target="_blank"
-        >Vercel</a
-      >.
-    </footer>
-
+      <footer>
+        This projected was coded by
+        <a href="https://github.com/whaleism" target="_blank">Jenny Lee</a>, is
+        open sourced on
+        <a
+          href="https://github.com/whaleism/xmas-trad-generator"
+          target="_blank"
+          >Git Hub</a
+        >, and hosted on
+        <a href="https://xmas-trad-generator.vercel.app/" target="_blank"
+          >Vercel</a
+        >.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>

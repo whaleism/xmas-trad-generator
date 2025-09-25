@@ -1,0 +1,67 @@
+body {
+  background-color: #eaeaea;
+  font-family: "Fredoka", sans-serif;
+}
+
+header {
+  margin: 0 0 50px 0;
+}
+
+h1 {
+  color: #798071;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+}
+
+a {
+  color: #a3b5b2;
+}
+
+form {
+  background-color: #c2cbca;
+  display: flex;
+
+  padding: 25px;
+}
+
+footer {
+  font-size: 12px;
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+
+.container {
+  margin: 100px auto;
+  max-width: 500px;
+}
+
+.input-info {
+  border: 1px solid #a3b5b2;
+  border-radius: 50px;
+  color: #0d1f22;
+  font-size: 12px;
+  padding: 20px;
+  width: 80%;
+}
+
+.submit-button {
+  background-color: #a3b5b2;
+  border: none;
+  border-radius: 50px;
+  color: #171c17;
+  font-size: 12px;
+  margin: 0 0 0 10px;
+  padding: 20px;
+  width: 130px;
+}
+
+.xmas-traditions {
+  background-color: white;
+  border-top: 1px solid #a3b5b2;
+  border-bottom: 5px solid #a3b5b2;
+  font-size: 14px;
+  line-height: 15px;
+  padding: 30px;
+}
