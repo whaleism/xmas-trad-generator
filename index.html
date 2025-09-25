@@ -11,6 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap"
       rel="stylesheet"
     />
+    <!-- Typewriter -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Xmas Traditions Generator</title>
   </head>
   <body>
@@ -19,7 +21,7 @@
         <h1>Christmas Traditions Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="traditions-generator">
           <input
             type="text"
             placeholder="Enter a topic about Christmas"
@@ -30,13 +32,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="xmas-traditions">
-          Generated traditions go here
-          <br />
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis,
-          est ac vulputate placerat, mi ex condimentum lorem, sit amet fringilla
-          orci mi ac mi.
-        </div>
+        <div class="xmas-traditions" id="xmas"></div>
       </main>
 
       <footer>
