@@ -1,5 +1,5 @@
 function showTradition(response) {
-  console.log("Is this working");
+  // console.log("Is this working");
 
   new Typewriter("#xmas", {
     strings: response.data.answer,
@@ -23,12 +23,11 @@ function generateTradition(event) {
 
   let xmasTextGenerator = document.querySelector("#xmas");
   xmasTextGenerator.innerHTML = "Generating your topic... ⋆𐙚❅*°⋆❆.ೃ࿔*:";
-
   xmasTextGenerator.classList.remove("hidden");
 
-  console.log("Generating...");
-  console.log(`Prompt: ${prompt}`);
-  console.log(`Context: ${context}`);
+  // console.log("Generating...");
+  // console.log(`Prompt: ${prompt}`);
+  // console.log(`Context: ${context}`);
 
   axios.get(apiUrl).then(showTradition);
 }
