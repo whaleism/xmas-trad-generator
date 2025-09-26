@@ -20,10 +20,7 @@ a {
 }
 
 form {
-  background-color: #c2cbca;
   display: flex;
-
-  padding: 25px;
 }
 
 footer {
@@ -35,6 +32,11 @@ footer {
 .container {
   margin: 100px auto;
   max-width: 500px;
+}
+
+.form-wrapper {
+  background-color: #c2cbca;
+  padding: 25px;
 }
 
 .input-info {
@@ -55,6 +57,13 @@ footer {
   margin: 0 0 0 10px;
   padding: 20px;
   width: 130px;
+}
+
+.hint {
+  font-size: 10px;
+  line-height: 1.5;
+  margin: 10px 0 0 10px;
+  opacity: 0.5;
 }
 
 .xmas-traditions {

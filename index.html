@@ -23,18 +23,21 @@
         <h1>Christmas Traditions Generator</h1>
       </header>
       <main>
-        <form id="traditions-generator">
-          <input
-            type="text"
-            placeholder="Enter a topic about Christmas"
-            class="input-info"
-            id="user-input"
-            autocomplete="off"
-            autofocus
-            required
-          />
-          <input type="submit" class="submit-button" />
-        </form>
+        <div class="form-wrapper">
+          <form id="traditions-generator">
+            <input
+              type="text"
+              placeholder="Enter a topic about Christmas traditions"
+              class="input-info"
+              id="user-input"
+              autocomplete="off"
+              autofocus
+              required
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: gift wrapping, gift giving, tree cutting</div>
+        </div>
         <div class="xmas-traditions" id="xmas"></div>
       </main>
 
